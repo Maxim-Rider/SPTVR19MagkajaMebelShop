@@ -108,8 +108,10 @@ class App {
                                 }
                             
                             } else {
+                                System.out.println("Нету такого продукта. Выберите другой.");
                             }                        
                         } else {
+                            System.out.println("Нету такого покупателя. Выберите другого.");
                         }                        
                     }  
                     break;  
