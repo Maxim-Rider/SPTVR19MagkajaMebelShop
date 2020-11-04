@@ -34,7 +34,7 @@ class App {
         this.listProducts = saveToFile.loadFromFile("listProducts");
         this.listPersons = saveToFile.loadFromFile("listPersons");
     }     
-    boolean work = true;
+   
     
     Scanner scan = new Scanner(System.in);
     
